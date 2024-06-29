@@ -16,6 +16,7 @@
 ### Tools Used
 - Azure
 - SIEM
+- SQL server
 - 
 ## Steps
 Using Microsoft Azure I created 2 virtual machines setting network rules to open all internet traffic to create a honey net and bring in live traffic for the SOC lab
