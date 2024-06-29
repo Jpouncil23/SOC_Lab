@@ -1,17 +1,18 @@
 # SOC_Lab
 
 ## Objective
-[Brief Objective - Remove this afterwards]
+The objective of this lab is to deepen my understanding of security concepts and the operations of a Security Operations Center (SOC). By designing and implementing my own lab environment, I aim to gain hands-on experience with logging and monitoring practices, and to become proficient in using the tools commonly employed in a SOC.
+
 
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
 - Advanced understanding of SIEM concepts and practical application.
 - Proficiency in analyzing and interpreting network logs.
 - Ability to generate and recognize attack signatures and patterns.
 - Enhanced knowledge of network protocols and security vulnerabilities.
 - Development of critical thinking and problem-solving skills in cybersecurity.
+- Logging and monitoring 
 
 ### Tools Used
 - Azure
