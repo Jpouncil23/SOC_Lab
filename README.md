@@ -20,7 +20,7 @@ The objective of this lab is to deepen my understanding of security concepts and
 - SSMS(sequal server managment studio)
 - SQL server evaluation
 - Azure Active Directory
-- Azure Sentinal
+- Azure Sentinal(SIEM)
 -  
 ## Steps
 Using Microsoft Azure I created 2 virtual machines setting network rules to open all internet traffic to create a honey net and bring in live traffic for the SOC lab
