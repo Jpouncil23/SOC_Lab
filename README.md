@@ -22,6 +22,7 @@ The objective of this lab is to deepen my understanding of security concepts and
 - Azure Active Directory
 - Azure Sentinal(SIEM)
 -  Microsoft Defender
+-  KQL
 -  
 ## Steps
 Using Microsoft Azure I created 2 virtual machines setting network rules to open all internet traffic to create a honey net and bring in live traffic for the SOC lab
