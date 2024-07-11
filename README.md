@@ -1,4 +1,4 @@
-# SOC_Lab
+# SOC_Lab( Work in progress)
 
 ## Objective
 The objective of this lab is to deepen my understanding of security concepts and the operations of a Security Operations Center (SOC). By designing and implementing my own lab environment, I aim to gain hands-on experience with logging and monitoring practices, and to become proficient in using the tools commonly employed in a SOC.
