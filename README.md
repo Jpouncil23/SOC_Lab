@@ -33,9 +33,9 @@ Here I created 4 diffrent attacks maps from logs
 ![Screenshot 2024-08-19 175726](https://github.com/user-attachments/assets/c1f81e0b-7c3a-4655-b626-69a5b0c01576)
 I have configured 14 different rules in Microsoft Sentinel to trigger alerts and generate incidents.
 ![Screenshot 2024-08-20 192024](https://github.com/user-attachments/assets/bef43d1a-c208-448a-b2c9-2b75799b6701)
-
-
-
+Inspecting one of the incidents reported I found a successful brute force attack on my windows VM from Iran
+![Screenshot 2024-08-20 194630](https://github.com/user-attachments/assets/49c79b02-8b73-4eba-b3aa-be5322467e57)
+![Screenshot 2024-08-20 194955](https://github.com/user-attachments/assets/fdaf4400-03cd-4923-901f-4733b1184e08)
 
 
 
