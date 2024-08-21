@@ -26,7 +26,7 @@ The objective of this lab is to deepen my understanding of security concepts and
 ## Overview
 In this lab, I have created two virtual machines: one running Windows and the other running Linux. I've set up a honeynet with live traffic, intentionally making the Windows virtual machine vulnerable by disabling its firewalls and creating a SQL database within it. This configuration is designed to lure attackers to target both the SQL database and the Windows machine itself. The Linux machine serves as an additional logging point, allowing me to capture data from potential attackers. All of this is hosted in the Azure cloud. Arrows in the diagram point to the Log Analytics Workspace, where logs from AAD/Tenant Logs, Management Plane Logs, and Data Plane Logs have been ingested. From there, I've configured Azure Sentinel, which references the Log Analytics Workspace, enabling me to create maps and incidents based on the collected data. 
 ![SOC_DIAGRAM drawio](https://github.com/user-attachments/assets/44a174e7-c372-48eb-adba-0d99c9c2be28)
-BEFORE SECURING ENVIRONMENT
+BEFORE SECURING ENVIRONMENT FROM LAST 24 HOURS
 ![Screenshot 2024-08-20 204759](https://github.com/user-attachments/assets/c6aac3fa-1a13-463b-a526-621ea0b00ae7)
 ![Screenshot 2024-08-20 204936](https://github.com/user-attachments/assets/08b470da-a04d-4e64-9a12-af0ea1a4a7bc)
 ![Screenshot 2024-08-20 205224](https://github.com/user-attachments/assets/bd4edf7d-3ec2-481a-a965-139752c4c3b5)
