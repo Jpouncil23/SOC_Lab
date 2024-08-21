@@ -29,6 +29,15 @@ In this lab, I have created two virtual machines: one running Windows and the ot
 ![SOC_DIAGRAM drawio](https://github.com/user-attachments/assets/44a174e7-c372-48eb-adba-0d99c9c2be28)
 
 METRICS BEFORE SECURING ENVIRONMENT 
+| Metric                                         |         |
+|-----------------------------------------------|----------------------------|
+| Start Time  | 8/19/2024 20:24:06|
+| Stop Time  | 8/20/2024 20:24:06|
+| Security Events (Windows VMs)    | 19284|
+| Syslog (Linux VMs)   | 7862|
+| SecurityAlert (Microsoft Defender for Cloud)    |8|
+| SecurityIncident (Sentinel Incidents)|234|
+| NSG Inbound Malicious Flows Allowed  | 268|
 
 ![Screenshot 2024-08-20 204759](https://github.com/user-attachments/assets/c6aac3fa-1a13-463b-a526-621ea0b00ae7)
 ![Screenshot 2024-08-20 204936](https://github.com/user-attachments/assets/08b470da-a04d-4e64-9a12-af0ea1a4a7bc)
