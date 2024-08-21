@@ -1,4 +1,4 @@
-# SOC_Lab( Work in progress)
+# SOC_Lab
 
 ## Objective
 The objective of this lab is to gain hands-on experience as a SOC Analyst by designing and implementing a secure cloud-based environment within Azure. This includes deploying a vulnerable virtual machine as a honeynet, configuring a comprehensive logging and monitoring system using Log Analytics and Azure Sentinel, and applying NIST security controls. The lab also aims to assess the effectiveness of these measures through comparative analysis of security metrics from both unsecured and secured environments.
