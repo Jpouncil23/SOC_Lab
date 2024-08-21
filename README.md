@@ -48,8 +48,7 @@ I have configured 14 different rules in Microsoft Sentinel to trigger alerts and
 ![Screenshot 2024-08-20 192024](https://github.com/user-attachments/assets/bef43d1a-c208-448a-b2c9-2b75799b6701)
 Inspecting one of the incidents reported I found a successful brute force attack on my windows VM from Iran
 ![Screenshot 2024-08-20 194630](https://github.com/user-attachments/assets/49c79b02-8b73-4eba-b3aa-be5322467e57)
-![Screenshot 2024-08-20 194955](https://github.com/user-attachments/assets/fdaf4400-03cd-4923-901f-4733b1184e08)
-
+![Screenshot 2024-08-21 190246](https://github.com/user-attachments/assets/9a60e5e3-c57d-4c28-8e31-f9afa22aa6b4)
 
 
 
