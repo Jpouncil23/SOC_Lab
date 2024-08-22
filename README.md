@@ -19,17 +19,16 @@ The objective of this lab is to gain hands-on experience as a SOC Analyst by des
 - Azure Active Directory
 - Azure Sentinal(SIEM)
 - Microsoft Defender
-- KQL
+- KQL (Kusto Query Language)
 - Virtual Machines
 - NIST
-- 
 ## Overview
 In this lab, I have created two virtual machines: one running Windows and the other running Linux. I've set up a honeynet with live traffic, intentionally making the Windows virtual machine vulnerable by disabling its firewalls and creating a SQL database within it. This setup is designed to attract attackers to target both the SQL database and the Windows machine itself. The Linux machine serves as an additional logging point, allowing me to capture data from potential attackers. All of this is hosted in the Azure cloud. Arrows in the diagram point to the Log Analytics Workspace, where logs from AAD/Tenant Logs, Management Plane Logs, and Data Plane Logs have been ingested. From there, I've configured Azure Sentinel to reference the Log Analytics Workspace, enabling the creation of maps and incidents based on the collected data. To complete the lab environment, I will present metrics comparing an unsecured environment over the last 24 hours with a secure environment 24 hours after implementing NIST security controls and hardening the system.
 
 ![SOC_DIAGRAM drawio](https://github.com/user-attachments/assets/44a174e7-c372-48eb-adba-0d99c9c2be28)
 
 METRICS BEFORE SECURING ENVIRONMENT 
-| Metric                                         |         |
+| Metrics                                         |         |
 |-----------------------------------------------|----------------------------|
 | Start Time  | 8/19/2024 20:24:06|
 | Stop Time  | 8/20/2024 20:24:06|
