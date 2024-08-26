@@ -49,7 +49,9 @@ One of the incidents reported I found a successful brute force attack on my wind
 ![Screenshot 2024-08-20 194630](https://github.com/user-attachments/assets/49c79b02-8b73-4eba-b3aa-be5322467e57)
 ![Screenshot 2024-08-21 190246](https://github.com/user-attachments/assets/9a60e5e3-c57d-4c28-8e31-f9afa22aa6b4)
 
-METRICS AFTER SECURING ENVIRONMENT 
+METRICS AFTER SECURING ENVIRONMENT
+
+All map queries yielded no results, as there were no instances of malicious activity detected during the 24 hours following the hardening process
 | Metrics                                         |         |
 |-----------------------------------------------|----------------------------|
 | Start Time  |8/24/2024 21:27:55|
