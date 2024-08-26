@@ -43,14 +43,30 @@ METRICS BEFORE SECURING ENVIRONMENT
 ![Screenshot 2024-08-20 205224](https://github.com/user-attachments/assets/bd4edf7d-3ec2-481a-a965-139752c4c3b5)
 ![Screenshot 2024-08-20 205405](https://github.com/user-attachments/assets/d2c62c1e-5d82-447b-bde6-56353f5c4980)
 
-I have configured 14 different rules in Microsoft Sentinel to trigger alerts and generate incidents.
+I configured 14 different rules in Microsoft Sentinel to trigger alerts and generate incidents.
 ![Screenshot 2024-08-20 192024](https://github.com/user-attachments/assets/bef43d1a-c208-448a-b2c9-2b75799b6701)
-Inspecting one of the incidents reported I found a successful brute force attack on my windows VM from Iran
+One of the incidents reported I found a successful brute force attack on my windows VM from Iran
 ![Screenshot 2024-08-20 194630](https://github.com/user-attachments/assets/49c79b02-8b73-4eba-b3aa-be5322467e57)
 ![Screenshot 2024-08-21 190246](https://github.com/user-attachments/assets/9a60e5e3-c57d-4c28-8e31-f9afa22aa6b4)
 
+METRICS AFTER SECURING ENVIRONMENT 
+| Metrics                                         |         |
+|-----------------------------------------------|----------------------------|
+| Start Time  |8/24/2024 21:27:55|
+| Stop Time  | 8/25/2024 21:27:55|
+| Security Events (Windows VMs)    | 9538|
+| Syslog (Linux VMs)   | 1|
+| SecurityAlert (Microsoft Defender for Cloud)    |0|
+| SecurityIncident (Sentinel Incidents)|0|
+| NSG Inbound Malicious Flows Allowed  | 0|
 
-
+| RESULTS                                         |  Change after securing environment       |
+|-----------------------------------------------|----------------------------|
+| Security Events (Windows VMs)    | -50.54%|
+| Syslog (Linux VMs)   | -99.99%|
+| SecurityAlert (Microsoft Defender for Cloud)    |-100%|
+| SecurityIncident (Sentinel Incidents)|-100%|
+| NSG Inbound Malicious Flows Allowed  | -100%|
 
 
 
